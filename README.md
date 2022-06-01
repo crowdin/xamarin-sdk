@@ -1,7 +1,7 @@
 
 [<p align='center'><img src='https://support.crowdin.com/assets/logos/crowdin-dark-symbol.png' data-canonical-src='https://support.crowdin.com/assets/logos/crowdin-dark-symbol.png' width='200' height='200' align='center'/></p>](https://crowdin.com)
 
-# Crowdin Xamarin Forms SDK [<img src="https://img.shields.io/badge/beta-yellow"/>]()
+# Crowdin Xamarin Forms SDK [<img src="https://img.shields.io/badge/beta-yellow"/>](https://github.com/crowdin/xamarin-sdk)
 
 The Crowdin Xamarin Forms SDK delivers all new translations from Crowdin project to the application immediately. So there is no need to update the application via Store to get the new version with the localization.
 
@@ -19,8 +19,8 @@ The Crowdin Xamarin Forms SDK delivers all new translations from Crowdin project
 [![Nuget](https://img.shields.io/nuget/v/Crowdin.Xamarin.Forms?cacheSeconds=5000&logo=nuget)](https://www.nuget.org/packages/Crowdin.Xamarin.Forms/)
 [![Nuget](https://img.shields.io/nuget/dt/Crowdin.Xamarin.Forms?cacheSeconds=800&logo=nuget)](https://www.nuget.org/packages/Crowdin.Xamarin.Forms/)
 ![GitHub Workflow Status](https://img.shields.io/github/workflow/status/crowdin/xamarin-sdk/Build%20Library?logo=github)
-[![GitHub issues](https://img.shields.io/github/issues/crowdin/xamarin-sdk?cacheSeconds=10000)](https://github.com/crowdin/xamarin-sdk/issues)
-[![GitHub contributors](https://img.shields.io/github/contributors/crowdin/xamarin-sdk?cacheSeconds=10000)](https://github.com/crowdin/xamarin-sdk/graphs/contributors)
+[![GitHub issues](https://img.shields.io/github/issues/crowdin/xamarin-sdk?cacheSeconds=9000)](https://github.com/crowdin/xamarin-sdk/issues)
+[![GitHub contributors](https://img.shields.io/github/contributors/crowdin/xamarin-sdk?cacheSeconds=9000)](https://github.com/crowdin/xamarin-sdk/graphs/contributors)
 [![GitHub](https://img.shields.io/github/license/crowdin/xamarin-sdk?cacheSeconds=20000)](https://github.com/crowdin/xamarin-sdk/blob/master/LICENSE)
 
 ### Requirements
