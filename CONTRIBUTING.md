@@ -48,6 +48,12 @@ Create an issue on that repository and provide the following information:
 * **Describe the current behavior** and **explain which behavior you expected to see instead** and why.
 * **Explain why this enhancement would be useful** to most Xamarin Forms SDK users.
 
+Also, we’re using [Discussions](https://github.com/crowdin/xamarin-sdk/discussions) as a place to connect with other members of our community. We hope that you:
+ * Ask questions you’re wondering about.
+ * Share ideas.
+ * Engage with other community members.
+ * Welcome others and are open-minded. Remember that this is a community we build together 💪.
+
 ### Your First Code Contribution
 
 Unsure where to begin contributing to Crowdin Xamarin Forms SDK? You can start by looking through these `good-first-issue` and `help-wanted` issues:
