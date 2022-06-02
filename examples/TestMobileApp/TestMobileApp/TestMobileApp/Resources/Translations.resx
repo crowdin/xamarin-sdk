@@ -1,0 +1,57 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+
+<root>
+    <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+        <xsd:element name="root" msdata:IsDataSet="true">
+            
+        </xsd:element>
+    </xsd:schema>
+    <resheader name="resmimetype">
+        <value>text/microsoft-resx</value>
+    </resheader>
+    <resheader name="version">
+        <value>1.3</value>
+    </resheader>
+    <resheader name="reader">
+        <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+    </resheader>
+    <resheader name="writer">
+        <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+    </resheader>
+    <data name="Shell:About" xml:space="preserve">
+        <value>About the platform</value>
+    </data>
+    <data name="Shell:Browse" xml:space="preserve">
+        <value>Browse</value>
+    </data>
+    <data name="Shell:Logout" xml:space="preserve">
+        <value>Logout</value>
+    </data>
+    <data name="View:About:Body:Title" xml:space="preserve">
+        <value>Agile localization for tech companies</value>
+    </data>
+    <data name="View:About:Body:Description" xml:space="preserve">
+        <value>Crowdin is a cloud-based solution that streamlines localization management for your team. It's the perfect place to effectively manage all of your multilingual content.</value>
+    </data>
+    <data name="View:About:Button:Label" xml:space="preserve">
+        <value>Learn more</value>
+    </data>
+    <data name="View:Browse:Text" xml:space="preserve">
+        <value>Text</value>
+    </data>
+    <data name="View:Browse:Description" xml:space="preserve">
+        <value>Description</value>
+    </data>
+    <data name="View:Browse:AddButton:Label" xml:space="preserve">
+        <value>Add</value>
+    </data>
+    <data name="View:Browse:SaveButton:Label" xml:space="preserve">
+        <value>Save</value>
+    </data>
+    <data name="View:Browse:CancelButton:Label" xml:space="preserve">
+        <value>Cancel</value>
+    </data>
+    <data name="View:Logout:LoginButton:Label" xml:space="preserve">
+        <value>Login</value>
+    </data>
+</root>

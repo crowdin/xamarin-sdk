@@ -1,0 +1,50 @@
+﻿<root>
+    <resheader name="resmimetype">
+        <value>text/microsoft-resx</value>
+    </resheader>
+    <resheader name="version">
+        <value>1.3</value>
+    </resheader>
+    <resheader name="reader">
+        <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+    </resheader>
+    <resheader name="writer">
+        <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+    </resheader>
+    <data name="Shell:About" xml:space="preserve">
+        <value>Über die Plattform</value>
+    </data>
+    <data name="Shell:Browse" xml:space="preserve">
+        <value>Durchsuche</value>
+    </data>
+    <data name="Shell:Logout" xml:space="preserve">
+        <value>Ausloggen</value>
+    </data>
+    <data name="View:About:Body:Title" xml:space="preserve">
+        <value>Agile Lokalisierung für Technologieunternehmen</value>
+    </data>
+    <data name="View:About:Body:Description" xml:space="preserve">
+        <value>Crowdin ist eine Cloud-basierte Lösung, welche die Lokalisierung-Verwaltung für Ihr Team rationalisiert. Es ist der perfekt Ort, um all Ihren multilingualen Inhalt effektiv zu Verwalten.</value>
+    </data>
+    <data name="View:About:Button:Label" xml:space="preserve">
+        <value>Lernmodus</value>
+    </data>
+    <data name="View:Browse:Text" xml:space="preserve">
+        <value>Text</value>
+    </data>
+    <data name="View:Browse:Description" xml:space="preserve">
+        <value>Beschreibung</value>
+    </data>
+    <data name="View:Browse:AddButton:Label" xml:space="preserve">
+        <value>Hinzufügen</value>
+    </data>
+    <data name="View:Browse:SaveButton:Label" xml:space="preserve">
+        <value>Speichern</value>
+    </data>
+    <data name="View:Browse:CancelButton:Label" xml:space="preserve">
+        <value>Absagen</value>
+    </data>
+    <data name="View:Logout:LoginButton:Label" xml:space="preserve">
+        <value>Anmeldung</value>
+    </data>
+</root>
