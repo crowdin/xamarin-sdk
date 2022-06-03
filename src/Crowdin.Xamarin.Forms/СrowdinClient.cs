@@ -76,7 +76,7 @@ namespace Crowdin.Xamarin.Forms
             var url = $"{mBaseUrl}/content/{languageCode}{inFilename}";
             HttpResponseMessage response = await HttpClient.GetAsync(url);
             
-            await using Stream rawResponseStream = await response.Content.ReadAsStreamAsync();
+            using Stream rawResponseStream = await response.Content.ReadAsStreamAsync();
             Stream decompressedStream = await DecompressStream(rawResponseStream);
             
             using var resxReader = new ResXResourceReader(decompressedStream);
@@ -88,7 +88,7 @@ namespace Crowdin.Xamarin.Forms
         private static async Task<Stream> DecompressStream(Stream inStream)
         {
             var outStream = new MemoryStream();
-            await using var gzipStream = new GZipStream(inStream, CompressionMode.Decompress);
+            using var gzipStream = new GZipStream(inStream, CompressionMode.Decompress);
             
             await gzipStream.CopyToAsync(outStream);
             outStream.Position = 0;
