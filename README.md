@@ -117,6 +117,8 @@ DynamicResourcesLoader.LoadCrowdinStrings(options, Current.Resources);
 
 In a last way don't forget to add `options.FileName` value. Please note - for this example we used the 'Translations.resx' file name. This name should correspond to the file name in Crowdin.
 
+See the example project for more understanding.
+
 ### Contribution
 
 If you want to contribute please read the [Contributing](/CONTRIBUTING.md) guidelines.
