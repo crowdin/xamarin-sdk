@@ -5,7 +5,14 @@
 
 The Crowdin Xamarin Forms SDK delivers all new translations from Crowdin project to the application immediately. So there is no need to update the application via Store to get the new version with the localization.
 
-[Read more about Crowdin Content Delivery](https://support.crowdin.com/content-delivery/) :bookmark:
+[Example project](https://github.com/crowdin/xamarin-sdk/tree/main/examples/TestMobileApp) | [Crowdin docs](https://support.crowdin.com/content-delivery/) | [Crowdin Enterprise docs](https://support.crowdin.com/enterprise/content-delivery/)
+
+[![Nuget](https://img.shields.io/nuget/v/Crowdin.Xamarin.Forms?cacheSeconds=5000&logo=nuget)](https://www.nuget.org/packages/Crowdin.Xamarin.Forms/)
+[![Nuget](https://img.shields.io/nuget/dt/Crowdin.Xamarin.Forms?cacheSeconds=800&logo=nuget)](https://www.nuget.org/packages/Crowdin.Xamarin.Forms/)
+![GitHub Workflow Status](https://img.shields.io/github/workflow/status/crowdin/xamarin-sdk/Build%20Library?logo=github)
+[![GitHub issues](https://img.shields.io/github/issues/crowdin/xamarin-sdk?cacheSeconds=9000)](https://github.com/crowdin/xamarin-sdk/issues)
+[![GitHub contributors](https://img.shields.io/github/contributors/crowdin/xamarin-sdk?cacheSeconds=9000)](https://github.com/crowdin/xamarin-sdk/graphs/contributors)
+[![GitHub](https://img.shields.io/github/license/crowdin/xamarin-sdk?cacheSeconds=20000)](https://github.com/crowdin/xamarin-sdk/blob/master/LICENSE)
 
 ### Features
 
@@ -14,14 +21,6 @@ The Crowdin Xamarin Forms SDK delivers all new translations from Crowdin project
 + Network usage configuration (All, only Wi-Fi or Cellular, Forbidden)
 + Load static strings from the bundled RESX files (usable as fallback before the CDN strings loaded)
 
-### Status
-
-[![Nuget](https://img.shields.io/nuget/v/Crowdin.Xamarin.Forms?cacheSeconds=5000&logo=nuget)](https://www.nuget.org/packages/Crowdin.Xamarin.Forms/)
-[![Nuget](https://img.shields.io/nuget/dt/Crowdin.Xamarin.Forms?cacheSeconds=800&logo=nuget)](https://www.nuget.org/packages/Crowdin.Xamarin.Forms/)
-![GitHub Workflow Status](https://img.shields.io/github/workflow/status/crowdin/xamarin-sdk/Build%20Library?logo=github)
-[![GitHub issues](https://img.shields.io/github/issues/crowdin/xamarin-sdk?cacheSeconds=9000)](https://github.com/crowdin/xamarin-sdk/issues)
-[![GitHub contributors](https://img.shields.io/github/contributors/crowdin/xamarin-sdk?cacheSeconds=9000)](https://github.com/crowdin/xamarin-sdk/graphs/contributors)
-[![GitHub](https://img.shields.io/github/license/crowdin/xamarin-sdk?cacheSeconds=20000)](https://github.com/crowdin/xamarin-sdk/blob/master/LICENSE)
 
 ### Requirements
 
@@ -116,8 +115,6 @@ DynamicResourcesLoader.LoadCrowdinStrings(options, Current.Resources);
 ```
 
 In a last way don't forget to add `options.FileName` value. Please note - for this example we used the 'Translations.resx' file name. This name should correspond to the file name in Crowdin.
-
-See the example project for more understanding.
 
 ### Contribution
 
