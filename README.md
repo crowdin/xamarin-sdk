@@ -118,7 +118,7 @@ In a last way don't forget to add `options.FileName` value. Please note - for th
 
 ### Contribution
 
-If you want to contribute please read the [Contributing](/CONTRIBUTING.md) guidelines.
+If you want to contribute please read the [Contributing](CONTRIBUTING.md) guidelines.
 
 ### Seeking Assistance
 If you find any problems or would like to suggest a feature, please feel free to file an issue on Github at [Issues Page](https://github.com/crowdin/xamarin-sdk/issues).
