@@ -5,7 +5,12 @@
 
 The Crowdin Xamarin Forms SDK delivers all new translations from Crowdin project to the application immediately. So there is no need to update the application via Store to get the new version with the localization.
 
-[Example project](https://github.com/crowdin/xamarin-sdk/tree/main/examples/TestMobileApp) | [Crowdin docs](https://support.crowdin.com/content-delivery/) | [Crowdin Enterprise docs](https://support.crowdin.com/enterprise/content-delivery/)
+<div align="center">
+
+[**`Example project`**](https://github.com/crowdin/xamarin-sdk/tree/main/examples/TestMobileApp) &nbsp;|&nbsp;
+[**`Online Docs`**](https://crowdin.github.io/xamarin-sdk/api/Crowdin.Xamarin.Forms.html) &nbsp;|&nbsp;
+[**`Crowdin Docs`**](https://support.crowdin.com/content-delivery)  &nbsp;|&nbsp;
+[**`Crowdin Enterprise Docs`**](https://support.crowdin.com/enterprise/content-delivery/)
 
 [![Nuget](https://img.shields.io/nuget/v/Crowdin.Xamarin.Forms?cacheSeconds=5000&logo=nuget)](https://www.nuget.org/packages/Crowdin.Xamarin.Forms/)
 [![Nuget](https://img.shields.io/nuget/dt/Crowdin.Xamarin.Forms?cacheSeconds=800&logo=nuget)](https://www.nuget.org/packages/Crowdin.Xamarin.Forms/)
@@ -13,6 +18,8 @@ The Crowdin Xamarin Forms SDK delivers all new translations from Crowdin project
 [![GitHub issues](https://img.shields.io/github/issues/crowdin/xamarin-sdk?cacheSeconds=9000)](https://github.com/crowdin/xamarin-sdk/issues)
 [![GitHub contributors](https://img.shields.io/github/contributors/crowdin/xamarin-sdk?cacheSeconds=9000)](https://github.com/crowdin/xamarin-sdk/graphs/contributors)
 [![GitHub](https://img.shields.io/github/license/crowdin/xamarin-sdk?cacheSeconds=20000)](https://github.com/crowdin/xamarin-sdk/blob/master/LICENSE)
+
+</div>
 
 ### Features
 
@@ -118,7 +125,7 @@ In a last way don't forget to add `options.FileName` value. Please note - for th
 
 ### Contribution
 
-If you want to contribute please read the [Contributing](/CONTRIBUTING.md) guidelines.
+If you want to contribute please read the [Contributing](CONTRIBUTING.md) guidelines.
 
 ### Seeking Assistance
 If you find any problems or would like to suggest a feature, please feel free to file an issue on Github at [Issues Page](https://github.com/crowdin/xamarin-sdk/issues).
