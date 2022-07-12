@@ -123,6 +123,22 @@ DynamicResourcesLoader.LoadCrowdinStrings(options, Current.Resources);
 
 In a last way don't forget to add `options.FileName` value. Please note - for this example we used the 'Translations.resx' file name. This name should correspond to the file name in Crowdin.
 
+### Translations caching algorithm
+
+Every time the method `DynamicResourcesLoader.LoadCrowdinStrings` is executed the module checks the conditions for obtaining resources, updating or creating a cache (if it does not exist).
+
+1) If the cache is disabled and the network is unavailable - exit;
+2) If the cache is disabled, the network is available - resources are downloaded directly from the Crowdin CDN every time;
+3) If the cache is enabled, not yet created, the network is not available - exit;
+4) If the cache is enabled, not yet created, the network is available - resources are downloaded from the CDN and stored in the cache;
+5) If the cache is enabled, created - the cache is used first. The following is executed in the background thread:
+    * Check network availability. If not - exit;
+    * Update Crowdin manifest with updated translation date;
+    * Comparison of creation dates of cached and remote resources. If they are the same - exit;
+    * Update resources from Crowdin CDN;
+
+P.S. The network is considered unavailable even if the user has forbidden its use in the loader settings.
+
 ### Contribution
 
 If you want to contribute please read the [Contributing](CONTRIBUTING.md) guidelines.
