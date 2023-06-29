@@ -16,6 +16,13 @@
 		<TargetPlatformMinVersion Condition="$([MSBuild]::GetTargetPlatformIdentifier('$(TargetFramework)')) == 'windows'">10.0.17763.0</TargetPlatformMinVersion>
 		<SupportedOSPlatformVersion Condition="$([MSBuild]::GetTargetPlatformIdentifier('$(TargetFramework)')) == 'tizen'">6.5</SupportedOSPlatformVersion>
 		<ReleaseVersion>0.1.0</ReleaseVersion>
+
+		<!-- NuGet configuration -->
+		<PackageId>Crowdin.Maui</PackageId>
+		<Version>0.1.0</Version>
+		<Title>Crowdin .NET MAUI SDK</Title>
+		<Authors>Crowdin</Authors>
+		<Owner>Crowdin</Owner>
 	</PropertyGroup>
 
 	<PropertyGroup Condition="'$(Configuration)|$(TargetFramework)|$(Platform)'=='Debug|net7.0-ios|AnyCPU'">
