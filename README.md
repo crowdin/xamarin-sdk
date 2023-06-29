@@ -1,9 +1,9 @@
 
 [<p align='center'><img src='https://support.crowdin.com/assets/logos/crowdin-dark-symbol.png' data-canonical-src='https://support.crowdin.com/assets/logos/crowdin-dark-symbol.png' width='200' height='200' align='center'/></p>](https://crowdin.com)
 
-# Crowdin Xamarin Forms SDK [<img src="https://img.shields.io/badge/beta-yellow"/>](https://github.com/crowdin/xamarin-sdk)
+# Crowdin .NET MAUI SDK [<img src="https://img.shields.io/badge/beta-yellow"/>](https://github.com/crowdin/xamarin-sdk)
 
-The Crowdin Xamarin Forms SDK delivers all new translations from Crowdin project to the application immediately. So there is no need to update the application via Store to get the new version with the localization.
+The Crowdin .NET MAUI SDK is a fork of the Crowdin Xamarin Forms SDK delivers all new translations from Crowdin project to the application immediately. So there is no need to update the application via Store to get the new version with the localization.
 
 <div align="center">
 
